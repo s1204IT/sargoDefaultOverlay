@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_mms_user_agent">g020e</string>
+    <string name="config_mms_user_agent_profile_url">http://uaprof.vtext.com/google/g020e/g020e.xml</string>
+    <string name="config_mobile_hotspot_provision_app_no_ui">com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK</string>
+    <string name="config_mobile_hotspot_provision_response">com.google.android.carrierentitlement.SILENT_ENTITLEMENT_CHECK_RESULT</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <string name="config_dozeDoubleTapSensorType">com.google.sensor.double_touch</string>
+    <string name="config_mms_user_agent">g020g</string>
+    <string name="config_mms_user_agent_profile_url">http://www.gstatic.com/android/sms/G020G.xml</string>
+    <string name="config_ims_package">org.codeaurora.ims</string>
+    <string name="config_wifi_tcp_buffers">524288,2097152,8388608,262144,524288,4194304</string>
+    <string name="config_wifi_framework_sap_2G_channel_list">6</string>
+    <string name="config_defaultDndAccessPackages">com.google.android.GoogleCamera:com.google.android.gms:com.google.android.settings.intelligence:com.google.android.apps.wellbeing</string>
+    <string name="wifi_tether_configure_ssid_default">Pixel</string>
+    <string name="widget_default_package_name">com.google.android.deskclock</string>
+    <string name="widget_default_class_name">com.android.alarmclock.DigitalAppWidgetProvider</string>
+    <string name="config_appsAuthorizedForSharedAccounts">;com.android.vending;com.android.settings;</string>
+    <string name="config_persistentDataPackageName">com.google.android.gms</string>
+    <string name="config_defaultNetworkRecommendationProviderPackage">com.google.android.gms</string>
+    <string name="config_defaultAccessibilityService">com.google.android.marvin.talkback/.TalkBackService</string>
+    <string name="config_defaultListenerAccessPackages">com.google.android.apps.nexuslauncher:com.google.android.setupwizard:com.google.android.apps.pixelmigrate:com.google.android.as:com.google.android.projection.gearhead</string>
+    <string name="config_defaultAutofillService">com.google.android.gms/.autofill.service.AutofillService</string>
+    <string name="config_defaultAssistantAccessPackage">com.google.android.ext.services</string>
+    <string name="config_defaultAssistantComponentName">com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService</string>
+    <string name="harmful_app_warning_title">Play Protect warning</string>
+    <string name="config_helpPackageNameKey">genie-eng:app_pkg_name</string>
+    <string name="config_helpPackageNameValue">com.google.android.settings.gphone</string>
+    <string name="config_helpIntentExtraKey">EXTRA_PSD_KEYS</string>
+    <string name="config_helpIntentNameKey">EXTRA_PSD_VALUES</string>
+    <string name="config_feedbackIntentExtraKey">EXTRA_FEEDBACK_PSD_KEYS</string>
+    <string name="config_feedbackIntentNameKey">EXTRA_FEEDBACK_PSD_VALUES</string>
+    <string name="config_icon_mask">M50 0C77.6 0 100 22.4 100 50C100 77.6 77.6 100 50 100C22.4 100 0 77.6 0 50C0 22.4 22.4 0 50 0Z</string>
+    <string name="config_headlineFontFamily">google-sans</string>
+    <string name="config_headlineFontFamilyLight">google-sans</string>
+    <string name="config_headlineFontFeatureSettings">ss03</string>
+    <string name="config_headlineFontFamilyMedium">google-sans-medium</string>
+    <string name="config_defaultTextClassifierPackage">com.google.android.as</string>
+    <string name="android_upgrading_title">Pixel is updating…</string>
+    <string name="android_start_title">Pixel is starting…</string>
+    <string name="config_wallpaperCropperPackage">com.google.android.apps.wallpaper</string>
+    <string name="config_deviceProvisioningPackage">com.google.android.apps.work.oobconfig</string>
+    <string name="default_wallpaper_component">@null</string>
+</resources>

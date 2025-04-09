@@ -1,0 +1,39 @@
+name: Build
+
+on:
+  push:
+    paths-ignore:
+      - '*.md'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-24.04
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: 21
+
+      - name: Build
+        run: |
+          APK_NAME="framework-res__auto_generated_rro"
+          export PATH=$PATH:$ANDROID_SDK_ROOT/build-tools/35.0.1:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
+          sdkmanager --verbose --install "platforms;android-28"
+          aapt package -v -M AndroidManifest.xml -S res --min-sdk-version 28 --target-sdk-version 28 -I $ANDROID_SDK_ROOT/platforms/android-28/android.jar -F ${APK_NAME}-unaligned.apk
+          zipalign -v 4 ${APK_NAME}-unaligned.apk ${APK_NAME}.apk
+          apksigner sign -v --v1-signing-enabled false --key testdata/testkey.pk8 --cert testdata/testkey.x509.pem ${APK_NAME}.apk
+          rm -f -v ${APK_NAME}-unaligned.apk ${APK_NAME}.apk.idsig
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: sargo-pie-overlay
+          path: framework-res__auto_generated_rro.apk

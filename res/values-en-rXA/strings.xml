@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_dozeComponent">[çöḿ.åñðŕöîð.šýšţéḿûî/çöḿ.åñðŕöîð.šýšţéḿûî.ðöžé.ÐöžéŠéŕVîçé one two three four five six seven]</string>
+    <string name="config_ims_package">[öŕĝ.çöðéåûŕöŕå.îḿš one two three]</string>
+    <string name="widget_default_package_name">[çöḿ.ĝööĝļé.åñðŕöîð.ðéšķçļöçķ one two three four]</string>
+    <string name="widget_default_class_name">[çöḿ.åñðŕöîð.åļåŕḿçļöçķ.ÐîĝîţåļÅþþŴîðĝéţÞŕöVîðéŕ one two three four five six]</string>
+    <string name="config_appsAuthorizedForSharedAccounts">[;çöḿ.åñðŕöîð.Véñðîñĝ;çöḿ.åñðŕöîð.šéţţîñĝš; one two three four five]</string>
+    <string name="config_persistentDataPackageName">[çöḿ.ĝööĝļé.åñðŕöîð.ĝḿš one two three]</string>
+    <string name="harmful_app_warning_title">[Þļåý Þŕöţéçţ ŵåŕñîñĝ one two three]</string>
+    <string name="config_headlineFontFamilyMedium">[ĝööĝļé-šåñš-ḿéðîûḿ one two three]</string>
+    <string name="android_upgrading_title">[Pixel îš ûþðåţîñĝ… one two]</string>
+    <string name="android_start_title">[Pixel îš šţåŕţîñĝ… one two]</string>
+    <string name="config_deviceProvisioningPackage">[çöḿ.ĝööĝļé.åñðŕöîð.åþþš.ŵöŕķ.ööɓçöñƒîĝ one two three four five]</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_dozeComponent">‏‮com.android.systemui/com.android.systemui.doze.DozeService‬‏</string>
+    <string name="config_ims_package">‏‮org.codeaurora.ims‬‏</string>
+    <string name="widget_default_package_name">‏‮com.google.android.deskclock‬‏</string>
+    <string name="widget_default_class_name">‏‮com.android.alarmclock.DigitalAppWidgetProvider‬‏</string>
+    <string name="config_appsAuthorizedForSharedAccounts">‏‮;com.android.vending;com.android.settings;‬‏</string>
+    <string name="config_persistentDataPackageName">‏‮com.google.android.gms‬‏</string>
+    <string name="harmful_app_warning_title">‏‮Play‬‏ ‏‮Protect‬‏ ‏‮warning‬‏</string>
+    <string name="config_headlineFontFamilyMedium">‏‮google-sans-medium‬‏</string>
+    <string name="android_upgrading_title">Pixel ‏‮is‬‏ ‏‮updating‬‏…</string>
+    <string name="android_start_title">Pixel ‏‮is‬‏ ‏‮starting‬‏…</string>
+    <string name="config_deviceProvisioningPackage">‏‮com.google.android.apps.work.oobconfig‬‏</string>
+</resources>
